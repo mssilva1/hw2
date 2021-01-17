@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Equipment</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="md:space-x-4">
+        <div class="font-bold text-3xl p-4"> Must have Equipment</div>
+        <div> To start playing you will need the following:</div>
+        <div> 
+            <span class="font-bold"> 1. Tennis Racquets: </span>
+            <span>The most sold brands are Babolat, Wilson, Head and Yonex</span>
+        </div>
+        <div> 
+           <span class="font-bold"> 2. Tennis Balls: </span>
+            <span>Any set will do - Penn, Dunlop, Wilson, etc.</span>
+        </div>
+        <div> 
+            <span class="font-bold"> 3. Tennis Shoes: </span>
+             <span>This is very important since ankle injuries are very common, choose a pair with ankle support</span>
+        </div>
+        <div> 
+            <span class="font-bold"> 4. Others: </span>
+            <span> Overgrip + dampener (optional)</span>
+        </div>
+    </div>
+
+    
+    <div class="font-bold text-blue-800 text-2xl p-4 mt-4">Tennis Racquets $129.95 - $239.00 </div> 
+    <div class="p-4">
+        <div class ="md:flex md:space-x-32 md:w-2/3">
+            <div class="md:w-1/4">
+                <img src="Babolat.jpg">
+                <div class="text-center font-bold"> Babolat Pure Drive 2021: $229.00</div>
+            </div>
+            <div class="md:w-1/4">
+                <img src="Wilson.jpg">
+                <div class="text-center font-bold"> Wilson Blade 98 v7: $219.00</div>
+            </div>
+            <div class="md:w-1/4">
+                <img src="Head.jpg">
+                <div class="text-center font-bold"> Head Graphene 360 Radical Pro: $129.95</div>
+            </div>
+            <div class="md:w-1/4">
+                <img src="Yonex.jpg">
+                <div class="text-center font-bold"> Yonex VCORE 95: $239.00</div>
+            </div>  
+        </div>
+    </div>
+    <div class="border bg-gray-200 p-1">
+        <div class="font-bold mx-3"> Tip: Check the grip size </div>
+    </div>
+
+    <div class="font-bold text-blue-800 text-2xl p-4 mt-4">Tennis balls $3.99 - $4.99 each set </div>
+      
+    <div class="p-4">
+        <div class ="md:flex md:space-x-32 md:w-2/3">
+            <div class="md:w-1/3">
+                <img src="Penn.jpg">
+                <div class="text-center font-bold"> Penn Tennis Ball: $4.99</div>
+            </div>
+            <div class="md:w-1/3">
+                <img src="Wilsonball.jpg">
+                <div class="text-center font-bold"> Wilson Tennis Ball: $4.99</div>
+            </div>
+            <div class="md:w-1/3">
+                <img src="dunlop.jpg">
+                <div class="text-center font-bold"> Wilson Tennis Ball: $4.99</div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 p-1">
+        <div class="font-bold mx-3"> Tip: You can find specific balls by surface </div>
+    </div>
+    
+    <div class="font-bold text-blue-800 text-2xl p-4 mt-4">Tennis Shoes $127.95 - $129.95 </div>
+    <div class="p-4">
+        <div class ="md:flex md:space-x-32 md:w-2/5">
+            <div class="md:w-1/2">
+                <img src="Nike.jpg">
+                <div class="text-center font-bold"> Nike Air Zoom Vapor: $127.95</div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="Adidas.jpg">
+                <div class="text-center font-bold"> Adidas Adizero Ubersonic: $129.95</div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 p-1">
+        <div class="font-bold mx-3"> Tip: We recommend to spend a few extra dollars in this item </div>
+    </div>
+
+    <div class="font-bold text-blue-800 text-2xl p-4 mt-4">Others $5.49 - $6.95 </div>
+    <div class="p-4">
+        <div class ="md:flex md:space-x-32 md:w-2/5">
+            <div class="md:w-1/2">
+                <img src="Wilsondampener.jpg">
+                <div class="text-center font-bold"> Wilson dampener: $5.49</div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="Babolatovergrip.jpg">
+                <div class="text-center font-bold"> Babolat Overgrip: $6.95</div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 p-1">
+        <div class="font-bold mx-3"> Tip: grips are more expensive than overgrips </div>
+    </div>
+
+    <div class="px-4">
+        <div class="mt-6 border rounded bg-blue-800">
+            <div class="font-bold text-white text-2xl text-center p-2"> Order Now!</div>
+        </div>
+    </div>
+
+    <div class="p-4">
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Name</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-gray-500
+            focus:border-gray-500" type="text" id="name" name="name">
+    
+            <label class="block mt-4 font-bold" for="email">Email</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-gray-500
+            focus:border-gray-500" type="text" id="email" name="email">
+        
+            <label class="block mt-4 font-bold" for="order">What would you like to order?</label>
+            <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-gray-500
+            focus:border-gray-500" id="order" name="order"></textarea>
+        
+            <button class="block mt-4 text-white font-bold bg-blue-800 rounded px-4 py-2">Submit!</button>
+        </form>
+    </div>
+
+    <div class="mt-6 ml-4"> 
+        <span>   Return to <a href="index.html"> </span>
+        <span class="text-blue-800 underline font-bold"> Home Page </a> </span>
+    </div>
+</body>
+</html>
